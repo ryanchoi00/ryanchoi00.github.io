@@ -1,0 +1,70 @@
+h1, h2, h3, p {
+    font-family: Helvetica;
+}
+
+.Nav-bar {
+    background-color: white;
+    position: fixed;
+    top:0px;
+    width:100%;
+    
+}
+
+.Nav-bar li{
+    display: inline-block;
+    padding: 30px 11px;
+}
+
+.Nav-bar a{
+    text-decoration: none;
+}
+
+.banner {
+    background-color: #FDAC53;
+    color: #EFE1CE;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 50px;
+    padding: 10px 0;
+}
+
+#Exotic-Fruit{
+    height: 150px;
+    width: 150px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    filter:drop-shadow(1px 1px 1px black);
+}
+
+.fruits-section{
+    padding: 20px 50px;
+}
+
+#fruit{
+    color:#FDAC53;
+    font-size: 100px;
+
+}
+
+#greets ul{
+    list-style-type: none;
+}
+
+.avatar {
+    background-image: url('../images/Fruit_Header.webp');
+    background-size: cover;
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.bold{
+    font-weight:900;
+}
+
+a.blue {
+    color: blue;
+}
